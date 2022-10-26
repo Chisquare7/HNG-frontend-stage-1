@@ -2,6 +2,7 @@ import React from 'react'
 import I4G from '../assets/I4G.png'
 import github from '../assets/github-icon.png'
 import slack from '../assets/slack.png'
+import myavatar from '../assets/myavatar.jpg' 
 
 const Homepage = () => {
   return (
@@ -9,7 +10,7 @@ const Homepage = () => {
 			<header className="profile-section">
 				<div>
 					<div>
-                      {/* <img src={ } alt='Profile avatar'/> */}
+                      <img src={ myavatar } alt='Profile avatar'/>
 					</div>
 					<h1>Chibuike Chijioke</h1>
 				</div>
