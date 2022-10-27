@@ -10,20 +10,28 @@ import shareButton_mobile from '../assets/mobile-avatar-share-button.png'
 const Homepage = () => {
   return (
 		<div>
-			<main id='overall__container'>
+			<main id="overall__container">
 				<header id="profile-section">
-					<div>
+					<div id="profile">
 						<div id="img-container">
 							<img src={myavatar} alt="Profile avatar" id="profile__img" />
 						</div>
 						<h1 id="twitter">Chibuike Chijioke</h1>
 						<h2 id="slack">chibuike chijioke</h2>
-						<img src={shareButton_desk} alt="github icon" />
-						<img src={shareButton_mobile} alt="github icon" />
+						<img
+							src={shareButton_desk}
+							alt="share button icon"
+							id="shareButton_desk"
+						/>
+						<img
+							src={shareButton_mobile}
+							alt="share button icon"
+							id="shareButton_mobile"
+						/>
 					</div>
 				</header>
 				<section id="link-section">
-					<div>
+					<div id="links">
 						<a
 							href="https://twitter.com/Lifestyleafresh"
 							target=""
@@ -63,7 +71,7 @@ const Homepage = () => {
 							Design Books
 						</a>
 					</div>
-					<div>
+					<div id="socials">
 						<div id="img-container">
 							<img src={slack} alt="slack icon" />
 						</div>
@@ -74,12 +82,12 @@ const Homepage = () => {
 				</section>
 				<footer id="footer-section">
 					<hr />
-					<div>
+					<div id="footers">
 						<div id="img-container">
 							<img src={zuriInternship} alt="Zuri Internship logo" />
 						</div>
-						<div>
-							<p>HNG Internship 9 Frontend Task</p>
+						<div id="foot__middle">
+							<p id="footer__text">HNG Internship 9 Frontend Task</p>
 						</div>
 						<div id="img-container">
 							<img src={I4G} alt="I4G logo" />
