@@ -27,7 +27,7 @@ const Homepage = () => {
 							<img src={myavatar} alt="Profile avatar" id="profile__img" />
 						</div>
 						<h1 id="twitter">Chibuike Chijioke</h1>
-						<h2 id="slack">ChibuikeChijioke</h2>
+						{/* <h2 id="slack">ChibuikeChijioke</h2> */}
 					</div>
 				</header>
 				<section id="link-section">
