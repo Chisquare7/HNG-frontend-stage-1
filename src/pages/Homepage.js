@@ -34,38 +34,48 @@ const Homepage = () => {
 					<div id="links">
 						<a
 							href="https://twitter.com/Lifestyleafresh"
-							target=""
-							rel=""
+							target="_blank"
+							rel="noopener noreferrer"
 							id="twitter__link"
 						>
 							Twitter Link
 						</a>
 						<a
 							href="https://training.zuri.team/"
-							target=""
-							rel=""
+							target="_blank"
+							rel="noopener noreferrer"
 							id="btn__zuri"
 						>
 							Zuri Team
 						</a>
-						<a href="http://books.zuri.team" target="" rel="" id="books">
+						<a
+							href="http://books.zuri.team"
+							target="_blank"
+							rel="noopener noreferrer"
+							id="books"
+						>
 							Zuri Books
 						</a>
 						<a
 							href="https://books.zuri.team/python-for-beginners?ref_id=ChibuikeChijioke"
-							target=""
-							rel=""
+							target="_blank"
+							rel="noopener noreferrer"
 							id="book__python"
 						>
 							Python Books
 						</a>
-						<a href="https://background.zuri.team" target="" rel="" id="pitch">
+						<a
+							href="https://background.zuri.team"
+							target="_blank"
+							rel="noopener noreferrer"
+							id="pitch"
+						>
 							Background Check for Coders
 						</a>
 						<a
 							href="https://books.zuri.team/design-rules"
-							target=""
-							rel=""
+							target="_blank"
+							rel="noopener noreferrer"
 							id="book__design"
 						>
 							Design Books

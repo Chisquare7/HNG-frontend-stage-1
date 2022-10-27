@@ -20,11 +20,17 @@ h1, h2, h3, h4, h5, h6 {
 a {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  background: #EAECF0;
+  margin-bottom: 1em;
+  border-radius: .5rem;
+  padding: 1.5em 2em;
+  color: #101828;
+  font-size: .875rem;
 }
 
 #overall__container {
   width: 80%;
-  max-width: 1128px;
+  max-width: 1100px;
   margin: 3em auto 0;
 }
 
@@ -33,6 +39,7 @@ a {
 
 #profile-section {
   position: relative;
+  margin-bottom: 1.5em;
 }
 
 #slack, #shareButton__desk {
@@ -65,9 +72,11 @@ a {
 
 /* Styling the link section */
 
-/* #link-section {
-  margin-top: ;
-} */
+#links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 
