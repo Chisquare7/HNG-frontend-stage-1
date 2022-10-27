@@ -82,12 +82,8 @@ const Homepage = () => {
 						</a>
 					</div>
 					<div id="socials">
-						<div>
-							<img src={slack} alt="slack icon" />
-						</div>
-						<div>
-							<img src={github} alt="github icon" />
-						</div>
+						<img src={slack} alt="slack icon" />
+						<img src={github} alt="github icon" />
 					</div>
 				</section>
 				<footer id="footer-section">
