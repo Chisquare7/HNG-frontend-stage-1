@@ -2,7 +2,7 @@ import React from 'react'
 import I4G from '../assets/I4G.png'
 import github from '../assets/github-icon.png'
 import slack from '../assets/slack.png'
-import myavatar from '../assets/myavatar.jpg' 
+import myavatar from '../assets/myzuriavatar.jpg' 
 import zuriInternship from '../assets/Zuri.Internship_Logo.png'
 import shareButton_desk from '../assets/avatar-share-button.png'
 import shareButton_mobile from '../assets/mobile-avatar-share-button.png'
@@ -13,21 +13,21 @@ const Homepage = () => {
 			<main id="overall__container">
 				<header id="profile-section">
 					<div id="profile">
-						<div id="img-container">
-							<img src={myavatar} alt="Profile avatar" id="profile__img" />
-						</div>
-						<h1 id="twitter">Chibuike Chijioke</h1>
-						<h2 id="slack">chibuike chijioke</h2>
 						<img
 							src={shareButton_desk}
 							alt="share button icon"
-							id="shareButton_desk"
+							id="shareButton__desk"
 						/>
 						<img
 							src={shareButton_mobile}
 							alt="share button icon"
-							id="shareButton_mobile"
+							id="shareButton__mobile"
 						/>
+						<div id="img-container">
+							<img src={myavatar} alt="Profile avatar" id="profile__img" />
+						</div>
+						<h1 id="twitter">Chibuike Chijioke</h1>
+						<h2 id="slack">ChibuikeChijioke</h2>
 					</div>
 				</header>
 				<section id="link-section">
@@ -72,10 +72,10 @@ const Homepage = () => {
 						</a>
 					</div>
 					<div id="socials">
-						<div id="img-container">
+						<div>
 							<img src={slack} alt="slack icon" />
 						</div>
-						<div id="img-container">
+						<div>
 							<img src={github} alt="github icon" />
 						</div>
 					</div>
@@ -83,13 +83,13 @@ const Homepage = () => {
 				<footer id="footer-section">
 					<hr />
 					<div id="footers">
-						<div id="img-container">
+						<div>
 							<img src={zuriInternship} alt="Zuri Internship logo" />
 						</div>
 						<div id="foot__middle">
 							<p id="footer__text">HNG Internship 9 Frontend Task</p>
 						</div>
-						<div id="img-container">
+						<div>
 							<img src={I4G} alt="I4G logo" />
 						</div>
 					</div>

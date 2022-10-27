@@ -1,4 +1,100 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+	list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+#overall__container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 3em auto 0;
+}
+
+
+/* Styling the profile section */
+
+#profile-section {
+  position: relative;
+}
+
+#slack, #shareButton__desk {
+  display: none;
+}
+
+#img-container {
+  text-align: center;
+}
+
+#profile__img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+#twitter {
+  font-size: 1.25rem;
+  color:#101828;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#shareButton__mobile {
+  position: absolute;
+  bottom: 90%;
+  right: 5%;
+}
+
+
+
+/* Styling the link section */
+
+/* #link-section {
+  margin-top: ;
+} */
+
+
+
+
+
+
+/* font-family: 'Inter', sans-serif; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +131,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
