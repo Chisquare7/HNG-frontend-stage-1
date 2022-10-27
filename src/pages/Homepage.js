@@ -9,32 +9,33 @@ const Homepage = () => {
 		<div>
 			<header className="profile-section">
 				<div>
-					<div>
-                      <img src={ myavatar } alt='Profile avatar'/>
+					<div className="img-container">
+						<img src={myavatar} alt="Profile avatar" id="profile_img" />
 					</div>
-					<h1>Chibuike Chijioke</h1>
+					<h1 id="twitter">Chibuike Chijioke</h1>
+					<h2 id="slack">chibuike chijioke</h2>
 				</div>
 			</header>
 			<section className="link-section">
 				<div></div>
 				<div>
-					<div>
-						<img src={ slack } alt='slack icon'/>
+					<div className="img-container">
+						<img src={slack} alt="slack icon" />
 					</div>
-					<div>
-						<img src={ github } alt='github icon'/>
+					<div className="img-container">
+						<img src={github} alt="github icon" />
 					</div>
 				</div>
 			</section>
 			<footer className="footer-section">
 				<hr />
 				<div>
-					<div></div>
+					<div className="img-container"></div>
 					<div>
 						<p>HNG Internship 9 Frontend Task</p>
 					</div>
-					<div>
-						<img src={ I4G } alt='I4G logo'/>
+					<div className="img-container">
+						<img src={I4G} alt="I4G logo" />
 					</div>
 				</div>
 			</footer>
