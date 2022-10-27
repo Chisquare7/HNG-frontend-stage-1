@@ -82,8 +82,22 @@ const Homepage = () => {
 						</a>
 					</div>
 					<div id="socials">
-						<img src={slack} alt="slack icon" className="social__icons" />
-						<img src={github} alt="github icon" className="social__icons"/>
+						<a
+							href="https://hng9.slack.com/messages/C041JU70S5U/team/U048Q5X0KHP"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="social__icons"
+						>
+							<img src={slack} alt="slack icon" />
+						</a>
+						<a
+							href="https://github.com/Chisquare7"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="social__icons"
+						>
+							<img src={github} alt="github icon" />
+						</a>
 					</div>
 				</section>
 				<footer id="footer-section">
