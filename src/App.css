@@ -128,6 +128,22 @@ hr {
 
 
 
+/* Media Query for Desktop view */
+
+@media (min-width: 600px) {
+  #shareButton__desk {
+    display: block;
+    position: absolute;
+    bottom: 90%;
+    right: 15%;
+  }
+
+  #shareButton__mobile {
+    display: none;
+  }
+
+}
+
 
 
 
