@@ -83,6 +83,14 @@ a:hover {
   text-align: center;
 }
 
+#socials {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.social__icons + .social__icons {
+  margin-left: 1.5em;
+}
 
 
 
