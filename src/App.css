@@ -26,6 +26,11 @@ a {
   padding: 1.5em 2em;
   color: #101828;
   font-size: .875rem;
+  outline: none;
+}
+
+a:hover {
+  background: rgb(209 213 219);
 }
 
 #overall__container {
@@ -77,6 +82,13 @@ a {
   flex-direction: column;
   text-align: center;
 }
+
+
+
+
+
+
+
 
 
 
