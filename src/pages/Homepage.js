@@ -103,14 +103,18 @@ const Homepage = () => {
 				<footer id="footer-section">
 					<hr />
 					<div id="footers">
-						<div>
-							<img src={zuriInternship} alt="Zuri Internship logo" />
+						<div id="zuri__logo">
+							<img
+								src={zuriInternship}
+								alt="Zuri Internship logo"
+								className="footer__logo"
+							/>
 						</div>
 						<div id="foot__middle">
 							<p id="footer__text">HNG Internship 9 Frontend Task</p>
 						</div>
-						<div>
-							<img src={I4G} alt="I4G logo" />
+						<div id="I4G__logo">
+							<img src={I4G} alt="I4G logo" className="footer__logo" />
 						</div>
 					</div>
 				</footer>
