@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-a:hover {
+#twitter__link:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover {
   background: rgb(209 213 219);
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 #footers {
-  margin-top: 2em;
+  margin: 1.5em 0;
 }
 
 hr {
@@ -110,12 +110,12 @@ hr {
 }
 
 #zuri__logo {
-  width: 30%;
+  width: 10rem;
   margin-bottom: 1em;
 }
 
 #I4G__logo {
-  width: 25%;
+  width: 7rem;
   margin: 1em 0 1.5em;
 }
 
@@ -130,7 +130,7 @@ hr {
 
 /* Media Query for Desktop view */
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   #shareButton__desk {
     display: block;
     position: absolute;
@@ -140,6 +140,20 @@ hr {
 
   #shareButton__mobile {
     display: none;
+  }
+
+  #footers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #zuri__logo {
+    margin-bottom: 0em;
+  }
+
+  #I4G__logo {
+    margin: 1em 0 1.5em;
   }
 
 }
