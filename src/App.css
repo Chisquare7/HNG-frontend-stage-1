@@ -109,7 +109,22 @@ hr {
   border-width: thin;
 }
 
+#zuri__logo {
+  width: 50%;
+  margin-bottom: 1em;
+}
 
+#I4G__logo {
+  width: 35%;
+  margin: 1em 0 1.5em;
+}
+
+#footer__text {
+  font-size: .875rem;
+  color: #667085;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
 
 
 
