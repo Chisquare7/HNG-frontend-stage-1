@@ -3,6 +3,7 @@ import I4G from '../assets/I4G.png'
 import github from '../assets/github-icon.png'
 import slack from '../assets/slack.png'
 import myavatar from '../assets/myavatar.jpg' 
+import zuriInternship from '../assets/Zuri.Internship_Logo.png' 
 
 const Homepage = () => {
   return (
@@ -18,7 +19,9 @@ const Homepage = () => {
 					</div>
 				</header>
 				<section className="link-section">
-					<div></div>
+					<div>
+						
+					</div>
 					<div>
 						<div className="img-container">
 							<img src={slack} alt="slack icon" />
@@ -31,7 +34,9 @@ const Homepage = () => {
 				<footer className="footer-section">
 					<hr />
 					<div>
-						<div className="img-container"></div>
+						<div className="img-container">
+							<img src={zuriInternship} alt="Zuri Internship logo" />
+						</div>
 						<div>
 							<p>HNG Internship 9 Frontend Task</p>
 						</div>
