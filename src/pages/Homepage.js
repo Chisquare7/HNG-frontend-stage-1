@@ -26,7 +26,7 @@ const Homepage = () => {
 						<div id="img-container">
 							<img src={myavatar} alt="Profile avatar" id="profile__img" />
 						</div>
-						<h1 id="twitter">Chibuike Chijioke</h1>
+						<h1>Chibuike Chijioke</h1>
 						{/* <h2 id="slack">ChibuikeChijioke</h2> */}
 					</div>
 				</header>
@@ -36,7 +36,7 @@ const Homepage = () => {
 							href="https://twitter.com/Lifestyleafresh"
 							target="_blank"
 							rel="noopener noreferrer"
-							id="twitter__link"
+							id="twitter"
 						>
 							Twitter Link
 						</a>

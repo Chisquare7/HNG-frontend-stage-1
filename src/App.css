@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-#twitter__link, #btn__zuri, #books, #book__python, #pitch, #book__design  {
+#twitter, #btn__zuri, #books, #book__python, #pitch, #book__design  {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   background: #EAECF0;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-#twitter__link:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover {
+#twitter:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover {
   background: rgb(209 213 219);
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-#twitter, #slack {
+h1, #slack {
   font-size: 1.25rem;
   color:#101828;
   text-align: center;
