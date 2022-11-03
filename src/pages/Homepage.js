@@ -79,6 +79,14 @@ const Homepage = () => {
 							id="book__design"
 						>
 							Design Books
+					  </a>
+					  <a
+							href="/contact"
+							// target="_blank"
+							// rel="noopener noreferrer"
+							id="contact"
+						>
+							Contact Me
 						</a>
 					</div>
 					<div id="socials">
