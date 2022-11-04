@@ -274,11 +274,33 @@ hr {
   }
 
 
+/* Desktop stying of the desktop view */
 
-  /* #contact__container > div {
+  #contact__container > div {
     margin: 0 auto;
-    width: 50%;
-  } */
+    width: 70%;
+  }
+
+  .formname__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input__name + .input__name {
+    margin-left: .3em;
+  }
+
+  .input__name {
+    flex-basis: 48%;
+  }
+
+  #contact__form > input, #contact__form > textarea, .input__name > input {
+    width: 100%;
+  }
+
+  #contact__form > #btn__submit {
+    margin-bottom: 8em;
+  }
 
 }
 
