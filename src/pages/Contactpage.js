@@ -44,10 +44,10 @@ const Contactpage = () => {
 							<label htmlFor="message" className="input__labels">
 								Message
 							</label>
-							<textarea
-								id="message"
+                          <textarea 
+								id="message" cols="30" rows="10"
 								placeholder="Send me a message and I'll reply you as soon as possible..."
-							/>
+							></textarea>
 							<div className="input__tick">
 								<input type="checkbox" id="tick__box" />
 								<span className="tick__text">
