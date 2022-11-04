@@ -47,8 +47,20 @@ const Contactpage = () => {
 						</div>
 						<input type="submit" id="btn__submit" value="Send message" />
 					</form>
+                    <footer>
+					    <hr />
+					    <div id="footers">
+						    <img
+							    src={zuriInternship}
+							    alt="Zuri Internship logo"
+							    id="zuri__logo"
+						    />
+						    <p id="footer__text">HNG Internship 9 Frontend Task</p>
+						    <img src={I4G} alt="I4G logo" id="I4G__logo" />
+					    </div>
+				    </footer>
 				</main>
-				<footer>
+				{/* <footer>
 					<hr />
 					<div id="footers">
 						<img
@@ -59,7 +71,7 @@ const Contactpage = () => {
 						<p id="footer__text">HNG Internship 9 Frontend Task</p>
 						<img src={I4G} alt="I4G logo" id="I4G__logo" />
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		</div>
 	);
