@@ -26,7 +26,7 @@ const Homepage = () => {
 						<div id="img-container">
 							<img src={myavatar} alt="Profile avatar" id="profile__img" />
 						</div>
-						<h1>Chibuike Chijioke</h1>
+						<h1 className='profile__name'>Chibuike Chijioke</h1>
 						{/* <h2 id="slack">ChibuikeChijioke</h2> */}
 					</div>
 				</header>
