@@ -207,9 +207,9 @@ hr {
   margin-bottom: 1.5em;
 }
 
-#tick__box {
+.input__tick > #tick__box {
   margin-top: .5em;
-  transform: scale(1.5);
+  transform: scale(1.2);
   outline: none;
   border: 1px solid #D0D5DD;
   border-width: thin;
@@ -230,6 +230,17 @@ hr {
   font-weight: 400;
   line-height: 1.5rem;
   margin-left: .5em;
+}
+
+#contact__form > #btn__submit {
+  border: none;
+  background: #1570EF;
+  box-shadow: 0px, 1px rgba(16, 24, 40, 0.05);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  margin-bottom: 5em;
 }
 
 
