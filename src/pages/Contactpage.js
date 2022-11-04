@@ -17,7 +17,9 @@ const Contactpage = () => {
 						<form id="contact__form">
 							<div className="formname__flex">
 								<div className="input__name">
-									<label className="input__labels">First name</label>
+									<label htmlFor="first_name" className="input__labels">
+										First name
+									</label>
 									<input
 										type="text"
 										id="first_name"
@@ -25,7 +27,9 @@ const Contactpage = () => {
 									/>
 								</div>
 								<div className="input__name">
-									<label className="input__labels">Last name</label>
+									<label htmlFor="last_name" className="input__labels">
+										Last name
+									</label>
 									<input
 										type="text"
 										id="last_name"
@@ -33,9 +37,13 @@ const Contactpage = () => {
 									/>
 								</div>
 							</div>
-							<label className="input__labels">Email</label>
+							<label htmlFor="email" className="input__labels">
+								Email
+							</label>
 							<input type="email" id="email" placeholder="yourname@email.com" />
-							<label className="input__labels">Message</label>
+							<label htmlFor="message" className="input__labels">
+								Message
+							</label>
 							<textarea
 								id="message"
 								placeholder="Send me a message and I'll reply you as soon as possible..."
