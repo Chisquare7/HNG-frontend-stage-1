@@ -44,17 +44,22 @@ const Contactpage = () => {
 							<label htmlFor="message" className="input__labels">
 								Message
 							</label>
-                          <textarea 
-								id="message" cols="30" rows="10"
+							<textarea
+								id="message"
+								cols="30"
+								rows="10"
 								placeholder="Send me a message and I'll reply you as soon as possible..."
 							></textarea>
-							<label htmlFor='check' className="input__tick">
+							<label htmlFor="check" className="input__tick">
 								<input type="checkbox" id="tick__box" />
 								<span className="tick__text">
 									You agree to providing your data to HNG who may contact you.
 								</span>
 							</label>
-							<input type="submit" id="btn__submit" value="Send message" />
+							<button type="submit" id="btn__submit">
+								Send message
+							</button>
+							{/* <input type="submit" id="btn__submit" value="Send message" /> */}
 						</form>
 					</div>
 					<footer>

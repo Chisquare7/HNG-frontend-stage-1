@@ -189,7 +189,7 @@ hr {
   margin-bottom: .4em;
 }
 
-#contact__form > input, #contact__form > textarea, .input__name > input {
+#contact__form > input, #contact__form > textarea, .input__name > input, button {
   padding: .625em .875em;
   margin-bottom: 1.5em;
   outline: none;
