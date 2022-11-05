@@ -203,7 +203,7 @@ form > .error__validate, .input__name > .error__validate {
   font-weight: 400;
 }
 
-input:focus, #contact__form > textarea:focus, #contact__form > input {
+input:focus, #contact__form > textarea:focus, #contact__form > input:focus {
   outline: #84CAFF;
   border: 1px solid #84CAFF;
   box-shadow: 0 0 10px #84CAFF;
