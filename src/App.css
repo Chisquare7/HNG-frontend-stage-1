@@ -186,12 +186,12 @@ hr {
   color:#344054;
   font-weight: 500;
   line-height: 1.25rem;
+  margin-top: 1.5em;
   margin-bottom: .4em;
 }
 
 #contact__form > input, #contact__form > textarea, .input__name > input, button {
   padding: .625em .875em;
-  margin-bottom: 1.5em;
   outline: none;
   border: 1px solid #D0D5DD;
   border-radius: .5rem;
@@ -201,9 +201,17 @@ hr {
   line-height: 1.5rem;
 }
 
+form > .error__validate, .input__name > .error__validate {
+  margin-top: .5em;
+  font-size: .875rem;
+  color:#F83F23;
+  font-weight: 400;
+}
+
 .input__tick {
   display: inline-flex;
   align-items: flex-start;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
