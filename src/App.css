@@ -203,6 +203,12 @@ form > .error__validate, .input__name > .error__validate {
   font-weight: 400;
 }
 
+input:focus, #contact__form > textarea:focus, #contact__form > input {
+  outline: #84CAFF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0 0 10px #84CAFF;
+}
+
 .input__tick {
   display: inline-flex;
   align-items: flex-start;
