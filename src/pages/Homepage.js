@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import I4G from '../assets/I4G.png'
 import github from '../assets/github-icon.png'
 import slack from '../assets/slack.png'
@@ -26,7 +27,7 @@ const Homepage = () => {
 						<div id="img-container">
 							<img src={myavatar} alt="Profile avatar" id="profile__img" />
 						</div>
-						<h1 className='profile__name'>Chibuike Chijioke</h1>
+						<h1 className="profile__name">Chibuike Chijioke</h1>
 						{/* <h2 id="slack">ChibuikeChijioke</h2> */}
 					</div>
 				</header>
@@ -79,15 +80,16 @@ const Homepage = () => {
 							id="book__design"
 						>
 							Design Books
-					  </a>
-					  <a
+						</a>
+						{/* <a
 							href="/contact"
 							// target="_blank"
 							// rel="noopener noreferrer"
 							id="contact"
 						>
 							Contact Me
-						</a>
+						</a> */}
+						<Link to="/contact" id="contact">Contact me</Link>
 					</div>
 					<div id="socials">
 						<a
