@@ -8,7 +8,7 @@ const Contactpage = () => {
 	const [lastName, setLastName] = useState('')
 	const [email, setEmail] = useState('')
 	const [message, setMessage] = useState('')
-	const [error,setError]=useState(false)
+	const [error, setError] = useState(false)
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
