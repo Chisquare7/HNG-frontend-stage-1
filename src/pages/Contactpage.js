@@ -3,6 +3,8 @@ import I4G from "../assets/I4G.png";
 import zuriInternship from "../assets/Zuri.Internship_Logo.png";
 
 const Contactpage = () => {
+	const name = "Chibuike Chijioke"
+
   return (
 		<div>
 			<div id="contact__overall">
@@ -53,7 +55,7 @@ const Contactpage = () => {
 							<label htmlFor="check" className="input__tick">
 								<input type="checkbox" id="tick__box" />
 								<span className="tick__text">
-									You agree to providing your data to HNG who may contact you.
+									You agree to providing your data to {name} who may contact you.
 								</span>
 							</label>
 							<button type="submit" id="btn__submit">
