@@ -141,11 +141,6 @@ hr {
   flex-direction: column;
 }
 
-/* #contact__container > div {
-  margin: 0 auto;
-  width: 50%;
-} */
-
 
 /* Form container */
 
@@ -223,14 +218,6 @@ form > .error__validate, .input__name > .error__validate {
   border-width: thin;
   border-radius: .375rem;
 }
-
-/* #tick__box:before {
-  outline: 1px solid #D0D5DD;
-}
-
-#tick__box:checked {
-  background: #ffffff;
-} */
 
 .input__tick .tick__text {
   font-size: 1rem;
@@ -313,10 +300,6 @@ form > .error__validate, .input__name > .error__validate {
 }
 
 
-
-
-
-/* font-family: 'Inter', sans-serif; */
 
 
 

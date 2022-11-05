@@ -81,14 +81,6 @@ const Homepage = () => {
 						>
 							Design Books
 						</a>
-						{/* <a
-							href="/contact"
-							// target="_blank"
-							// rel="noopener noreferrer"
-							id="contact"
-						>
-							Contact Me
-						</a> */}
 						<Link to="/contact" id="contact">Contact me</Link>
 					</div>
 					<div id="socials">

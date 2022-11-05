@@ -14,7 +14,6 @@ const Contactpage = () => {
 		e.preventDefault();
 		if (firstName.length === 0 || lastName.length === 0 || email.length === 0 || message.length === 0)
 			setError(true)
-		console.log (firstName,lastName,email,message)
 	}
 
   return (
@@ -98,7 +97,6 @@ const Contactpage = () => {
 							<button type="submit" id="btn__submit">
 								Send message
 							</button>
-							{/* <input type="submit" id="btn__submit" value="Send message" /> */}
 						</form>
 					</div>
 					<footer>
@@ -114,18 +112,6 @@ const Contactpage = () => {
 						</div>
 					</footer>
 				</main>
-				{/* <footer>
-					<hr />
-					<div id="footers">
-						<img
-							src={zuriInternship}
-							alt="Zuri Internship logo"
-							id="zuri__logo"
-						/>
-						<p id="footer__text">HNG Internship 9 Frontend Task</p>
-						<img src={I4G} alt="I4G logo" id="I4G__logo" />
-					</div>
-				</footer> */}
 			</div>
 		</div>
 	);
